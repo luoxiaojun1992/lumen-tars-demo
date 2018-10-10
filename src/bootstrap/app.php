@@ -48,6 +48,8 @@ $app->singleton(
     App\Console\Kernel::class
 );
 
+$app->singleton('service.demo', \App\Services\DemoService::class);
+
 /*
 |--------------------------------------------------------------------------
 | Register Middleware

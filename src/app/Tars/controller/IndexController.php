@@ -14,7 +14,7 @@ class IndexController extends Controller
     public function actionIndex()
     {
         $this->cookie('key', 1, 10000000, '/', 'www.github.com');
-        $this->sendRaw(json_encode(config()));
+        $this->sendRaw(app('service.demo')->ping());
     }
     // curl "172.16.0.161:28887/Index/testHeader" -i
     public function actionTestHeader()
