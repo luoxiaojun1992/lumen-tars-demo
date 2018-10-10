@@ -83,6 +83,7 @@ $app->singleton('service.demo', \App\Services\DemoService::class);
 // $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
+$app->register(\Lxj\Laravel\Tars\ServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------

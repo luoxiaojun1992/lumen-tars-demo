@@ -6,7 +6,8 @@
  * Time: 下午2:42.
  */
 namespace App\Tars\controller;
-use App\Tars\component\Controller;
+
+use Lxj\Laravel\Tars\Controller;
 
 class IndexController extends Controller
 {
