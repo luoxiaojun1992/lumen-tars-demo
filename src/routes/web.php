@@ -14,3 +14,7 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->get('/Laravel/route/index/index', function () use ($router) {
+    return app('service.demo')->ping() . ':接入Laravel Router成功啦';
+});
