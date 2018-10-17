@@ -1636,12 +1636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luoxiaojun1992/laravel-tars.git",
-                "reference": "3cb4804f60c326826dc4f5568ca535820889d3bb"
+                "reference": "e3a819307854b02788d1e90a5520e3d3ce241667"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/3cb4804f60c326826dc4f5568ca535820889d3bb",
-                "reference": "3cb4804f60c326826dc4f5568ca535820889d3bb",
+                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/e3a819307854b02788d1e90a5520e3d3ce241667",
+                "reference": "e3a819307854b02788d1e90a5520e3d3ce241667",
                 "shasum": ""
             },
             "require": {
@@ -1675,7 +1675,7 @@
                 }
             ],
             "description": "Laravel Tars",
-            "time": "2018-10-16T03:29:09+00:00"
+            "time": "2018-10-17T02:49:16+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -3713,16 +3713,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "6.0.8",
+            "version": "6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "848f78b3309780fef7ec8c4666b7ab4e6b09b22f"
+                "reference": "0685fb6a43aed1b2e09804d1aaf17144c82861f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/848f78b3309780fef7ec8c4666b7ab4e6b09b22f",
-                "reference": "848f78b3309780fef7ec8c4666b7ab4e6b09b22f",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/0685fb6a43aed1b2e09804d1aaf17144c82861f8",
+                "reference": "0685fb6a43aed1b2e09804d1aaf17144c82861f8",
                 "shasum": ""
             },
             "require": {
@@ -3746,7 +3746,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.0-dev"
+                    "dev-master": "6.1-dev"
                 }
             },
             "autoload": {
@@ -3772,7 +3772,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-10-04T03:41:23+00:00"
+            "time": "2018-10-16T05:37:37+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
