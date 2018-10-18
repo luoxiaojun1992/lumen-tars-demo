@@ -17,6 +17,6 @@ $router->get('/', function () use ($router) {
 
 $router->group(['prefix' => '/Laravel/route'], function () use ($router) {
     $router->get('/index/index', function () {
-        return app('service.demo')->ping() . ':接入Laravel Router成功啦';
+        return app('service.demo')->ping() . ':接入Laravel Router成功啦,配置:' . json_encode(config('foo'));
     });
 });
