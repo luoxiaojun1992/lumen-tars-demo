@@ -15,6 +15,8 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/Laravel/route/index/index', function () use ($router) {
-    return app('service.demo')->ping() . ':接入Laravel Router成功啦';
+$router->group(['prefix' => '/Laravel/route'], function () use ($router) {
+    $router->get('/index/index', function () {
+        return app('service.demo')->ping() . ':接入Laravel Router成功啦';
+    });
 });
