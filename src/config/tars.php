@@ -2,15 +2,15 @@
 
 return [
     'registries' => [
-//        [
-//            'type' => 'kong',
-//            'url' => env('KONG_UPSTREAM', ''),
-//        ]
+        [
+            'type' => 'kong',
+            'url' => env('KONG_UPSTREAM', ''),
+        ]
     ],
 
-//    'tarsregistry' => env('TARS_REGISTRY', ''),
+    'tarsregistry' => env('TARS_REGISTRY', ''),
 
-//    'log_level' => \Monolog\Logger::INFO,
+    'log_level' => \Monolog\Logger::INFO,
 
-//    'communicator_config_log_level' => 'INFO',
+    'communicator_config_log_level' => 'INFO',
 ];
