@@ -1418,16 +1418,16 @@
         },
         {
             "name": "laravel/lumen-framework",
-            "version": "v5.7.5",
+            "version": "v5.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/lumen-framework.git",
-                "reference": "970bd0c906a72a0525110c26346a03d0bd7a84d2"
+                "reference": "18e279b710aabab6a03559e3f15e0a65fc4eb848"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/970bd0c906a72a0525110c26346a03d0bd7a84d2",
-                "reference": "970bd0c906a72a0525110c26346a03d0bd7a84d2",
+                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/18e279b710aabab6a03559e3f15e0a65fc4eb848",
+                "reference": "18e279b710aabab6a03559e3f15e0a65fc4eb848",
                 "shasum": ""
             },
             "require": {
@@ -1498,7 +1498,7 @@
                 "laravel",
                 "lumen"
             ],
-            "time": "2018-11-12T09:35:03+00:00"
+            "time": "2018-11-15T17:05:57+00:00"
         },
         {
             "name": "laravelista/lumen-vendor-publish",
@@ -1637,12 +1637,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luoxiaojun1992/laravel-tars.git",
-                "reference": "935ea782d0f6779b20b4190acb8980c815884c50"
+                "reference": "d7f8c400e1a957aa0fa1d694523212832a94c757"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/935ea782d0f6779b20b4190acb8980c815884c50",
-                "reference": "935ea782d0f6779b20b4190acb8980c815884c50",
+                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/d7f8c400e1a957aa0fa1d694523212832a94c757",
+                "reference": "d7f8c400e1a957aa0fa1d694523212832a94c757",
                 "shasum": ""
             },
             "require": {
@@ -1677,7 +1677,7 @@
                 }
             ],
             "description": "Laravel Tars",
-            "time": "2018-11-15T08:27:11+00:00"
+            "time": "2018-11-16T13:41:31+00:00"
         },
         {
             "name": "monolog/monolog",
