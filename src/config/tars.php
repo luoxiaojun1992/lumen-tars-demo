@@ -3,10 +3,10 @@
 return [
     //http服务网关
     'registries' => [
-        [
-            'type' => 'kong',
-            'url' => env('KONG_UPSTREAM', ''),
-        ]
+//        [
+//            'type' => 'kong',
+//            'url' => env('KONG_UPSTREAM', ''),
+//        ]
     ],
 
     'tarsregistry' => env('TARS_REGISTRY', ''),
