@@ -46,4 +46,6 @@ return [
 //        'dstPath' => '../src/app/Tars/servant', //可替换，遵循PSR-4规则
 //        'namespacePrefix' => 'App\Tars\servant', //可替换，遵循PSR-4规则
     ],
+
+    'zipkin_url' => env('ZIPKIN_URL', ''),
 ];
