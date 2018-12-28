@@ -1639,12 +1639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luoxiaojun1992/laravel-tars.git",
-                "reference": "2e1fa1a07493f05b54a9d393e0451c11c0c9618d"
+                "reference": "998faa4d8b1c1ee6e6f725a7d0c06b0af588c71b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/2e1fa1a07493f05b54a9d393e0451c11c0c9618d",
-                "reference": "2e1fa1a07493f05b54a9d393e0451c11c0c9618d",
+                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/998faa4d8b1c1ee6e6f725a7d0c06b0af588c71b",
+                "reference": "998faa4d8b1c1ee6e6f725a7d0c06b0af588c71b",
                 "shasum": ""
             },
             "require": {
@@ -1654,7 +1654,7 @@
                 "laravelista/lumen-vendor-publish": "2.1.0",
                 "phptars/tars-deploy": "~0.1",
                 "phptars/tars-log": "~0.1",
-                "phptars/tars-server": "~0.1",
+                "phptars/tars-server": "~0.2",
                 "phptars/tars2php": "~0.1",
                 "vlucas/phpdotenv": "~2.2"
             },
@@ -1686,7 +1686,7 @@
                 }
             ],
             "description": "Laravel Tars",
-            "time": "2018-12-28T00:41:08+00:00"
+            "time": "2018-12-28T02:48:36+00:00"
         },
         {
             "name": "monolog/monolog",
