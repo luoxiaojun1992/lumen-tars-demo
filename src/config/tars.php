@@ -47,5 +47,8 @@ return [
 //        'namespacePrefix' => 'App\Tars\servant', //可替换，遵循PSR-4规则
     ],
 
-    'zipkin_url' => env('ZIPKIN_URL', ''),
+    'trace' => [
+        'zipkin_url' => env('ZIPKIN_URL', ''),
+        'sample_rate' => 1,
+    ],
 ];

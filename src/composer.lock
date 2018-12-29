@@ -1639,12 +1639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luoxiaojun1992/laravel-tars.git",
-                "reference": "5047d1195f2706149001decfe4c6270d21d83bac"
+                "reference": "02dc799e899a95749b97b52e63d732340cbc200f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/5047d1195f2706149001decfe4c6270d21d83bac",
-                "reference": "5047d1195f2706149001decfe4c6270d21d83bac",
+                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/02dc799e899a95749b97b52e63d732340cbc200f",
+                "reference": "02dc799e899a95749b97b52e63d732340cbc200f",
                 "shasum": ""
             },
             "require": {
@@ -1687,7 +1687,7 @@
                 }
             ],
             "description": "Laravel Tars",
-            "time": "2018-12-29T02:26:07+00:00"
+            "time": "2018-12-29T08:07:47+00:00"
         },
         {
             "name": "monolog/monolog",
