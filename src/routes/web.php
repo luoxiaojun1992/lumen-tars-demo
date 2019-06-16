@@ -18,7 +18,7 @@ $router->get('/', function () use ($router) {
 $router->group(['prefix' => '/Laravel/route'], function () use ($router) {
     $router->get('/index/index', function () {
         \Illuminate\Support\Facades\Log::info('test tars log');
-        return app('service.demo')->ping() . ':接入Laravel Router成功啦,配置:' . json_encode(config('foo'));
+        return app('service.demo')->ping() . ':接入Lumen Router成功啦,配置:' . json_encode(config('foo'));
     });
 
     $router->get('/server', function() {
