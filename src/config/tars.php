@@ -9,11 +9,7 @@ return [
 //        ]
     ],
 
-    'tarsregistry' => env('TARS_REGISTRY', ''),
-
     'log_level' => \Monolog\Logger::INFO,
-
-    'communicator_config_log_level' => 'INFO',
 
     'services' => [
         'namespaceName' => 'Lxj\Laravel\Tars\\',
