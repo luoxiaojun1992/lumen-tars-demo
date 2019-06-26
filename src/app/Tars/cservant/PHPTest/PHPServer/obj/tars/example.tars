@@ -1,7 +1,0 @@
-module testtafserviceservant
-{
-    interface TestTafService
-    {
-        int test();
-    };
-}

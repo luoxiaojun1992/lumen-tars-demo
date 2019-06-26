@@ -23,13 +23,8 @@ $router->group(['prefix' => '/Laravel/route'], function () use ($router) {
 
     $router->get('/server', function() {
         try {
-            $config = new \Tars\client\CommunicatorConfig();
-            $config->setLocator(config('tars')['tarsregistry']);
-            $config->setModuleName("PHPTest.PHPHTTPServer");
-            $config->setSocketMode(2);
-            $config->setCharsetName("UTF-8");
-
-            $cservent = new \App\Tars\cservant\PHPTest\PHPServer\obj\TestTafServiceServant($config);
+            $config = \Lxj\Laravel\Tars\Config::communicatorConfig(config('tars.deploy_cfg'));
+            $cservent = new \App\Tars\cservant\PHPTest\LumenTars\tarsObj\TestTafServiceServant($config);
             return $cservent->test();
         } catch (\Throwable $e) {
             return $e->getMessage();
