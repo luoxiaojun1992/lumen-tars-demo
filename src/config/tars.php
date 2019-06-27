@@ -1,7 +1,5 @@
 <?php
 
-use Tars\monitor\cache\SwooleTableStoreCache;
-
 return [
     //http服务网关
     'registries' => [

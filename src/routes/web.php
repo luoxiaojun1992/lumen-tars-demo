@@ -16,18 +16,20 @@ $router->get('/', function () use ($router) {
 });
 
 $router->group(['prefix' => '/Laravel/route'], function () use ($router) {
-    $router->get('/index/index', function () {
-        \Illuminate\Support\Facades\Log::info('test tars log');
-        return app('service.demo')->ping() . ':接入Lumen Router成功啦,配置:' . json_encode(config('foo'));
-    });
+    $router->group(['prefix' => '/test'], function () use ($router) {
+        $router->get('/http', function () {
+            \Illuminate\Support\Facades\Log::info('test lumen tars log');
+            return app('service.demo')->ping() . ':接入Lumen Router成功啦,配置:' . json_encode(config('foo'));
+        });
 
-    $router->get('/server', function() {
-        try {
-            $config = \Lxj\Laravel\Tars\Config::communicatorConfig(config('tars.deploy_cfg'));
-            $cservent = new \App\Tars\cservant\PHPTest\LumenTars\tarsObj\TestTafServiceServant($config);
-            return $cservent->test();
-        } catch (\Throwable $e) {
-            return $e->getMessage();
-        }
+        $router->get('/tars', function () {
+            try {
+                $config = \Lxj\Laravel\Tars\Config::communicatorConfig(config('tars.deploy_cfg'));
+                $cservent = new \App\Tars\cservant\PHPTest\LumenTars\tarsObj\TestTafServiceServant($config);
+                return $cservent->test();
+            } catch (\Throwable $e) {
+                return $e->getMessage();
+            }
+        });
     });
 });
