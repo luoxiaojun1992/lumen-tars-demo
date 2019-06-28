@@ -1,5 +1,6 @@
 <?php
 //php tarsCmd.php  conf restart
+
 $config_path = $argv[1];
 $pos = strpos($config_path, '--config=');
 $config_path = substr($config_path, $pos + 9);
@@ -9,10 +10,10 @@ if ($cmd === 'stop') {
     include_once __DIR__ . '/vendor/autoload.php';
 
     //Load Env
-    try {
+    if (method_exists(\Dotenv\Dotenv::class, 'create')) {
+        Dotenv\Dotenv::create(__DIR__ . '/')->load();
+    } else {
         (new Dotenv\Dotenv(__DIR__ . '/'))->load();
-    } catch (Dotenv\Exception\InvalidPathException $e) {
-        //
     }
 
     list($hostname, $port, $appName, $serverName) = \Lxj\Laravel\Tars\Util::parseTarsConfig($config_path);
