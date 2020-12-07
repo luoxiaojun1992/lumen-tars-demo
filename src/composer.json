@@ -7,8 +7,8 @@
     "require": {
         "php": ">=7.1.3",
         "laravel/lumen-framework": "5.5.*",
-        "vlucas/phpdotenv": "~2.2",
-        "luoxiaojun1992/laravel-tars": "dev-master"
+        "luoxiaojun1992/laravel-tars": "dev-master",
+        "vlucas/phpdotenv": "~2.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
