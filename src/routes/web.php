@@ -20,7 +20,7 @@ $router->group(['prefix' => '/test'], function () use ($router) {
         \Illuminate\Support\Facades\Log::info('test lumen tars log');
         return app('service.demo')->ping() .
             ':接入Lumen Router成功啦,配置:' . json_encode(config('foo')) . ',入参:' .
-            json_encode(app('request')->all());
+            json_encode(app('request')->all()) . \Illuminate\Support\Facades\Auth::user()->name;
     });
 
     $router->get('/tars', function () {
